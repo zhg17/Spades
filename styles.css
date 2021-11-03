@@ -1,0 +1,63 @@
+body {
+    margin-top: 3%;
+    padding: 0px;
+}
+
+
+#landing {
+    border: black solid 3px;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    height: 600px;
+    line-height: 100px;
+    padding: 15px;
+}
+
+.score-boards {
+    border: black solid 3px;
+    text-align: center;
+    padding: 20px;
+}
+
+#landing.active {
+    display: none;
+}
+
+#game-area {
+    display: none;
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+
+.bags {
+    background: grey;
+    color: white;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+#game-area.active {
+    display: block;
+}
+
+
+.bags-to-add {
+    margin: 0;
+    display: inline-block;
+}
+
+#congrats-div {
+    display: none;
+}
+
+#congrats-div.active {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
